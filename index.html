@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h2>Font and Text</h2>
+        <sectionclass="card" class="card-color1" id="sup-sub">
+            <p>the <i>sup/sub</i> elements create suerscript and subscript.</p>
+            <h4>H<sub>2</sub>0 or X<sup>2</sup></h4>
+        </section>
+    </section>
+
+    <br>
+
+    <section>
+        <h2>Forms and Data</h2>
+        <section class="card" class="card-color1" id="fieldset-datalist">
+            <p>The <i>legend</i> and <i>datalist</i> properties format fill in boxes neatly as shown below. Datalist provides pregenerated responses, yet the input boxes still accept any input. All thatis needed is a list attribute matching the id attribute of the datalist.</p>
+            <form action="">
+
+                <fieldset>
+                    <legend>Fieldset Legend</legend>
+
+                    <div>
+                        <label for="">Color</label>
+                    </div>
+                    <div>
+                    <input list="color-list" type="text">
+                    <datalist id="color-list">
+                        <option value="Red"></option>
+                        <option value="Blue"></option>
+                        <option value="Green"></option>
+                        <option value="Yellow"></option>
+                    </datalist>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="">Game</label>
+                    </div>
+                    <div>
+                        <input list="game-list" type="text">
+                        <datalist id="game-list">
+                            <option value="Zelda: Breath of the Wild"></option>
+                            <option value="Horizon: Zero Dawn"></option>
+                            <option value="Minecraft"></option>
+                        </datalist>
+                    </div>
+                </fieldset>
+
+            </form>
+        </section>
+    </section>
+
+    <br>
+
+    <section>
+        <p>the <i>progress</i> element provides a simple loading bar.</p>
+        <progress></progress>
+        <p>it can also be set to a fixed <i>value</i> out of the <i>max</i> value.</p>
+        <progress value="64" max="100">64%</progress>
+    </section>
+
+    <br>
+
+    <section>
+        <p>the type "color" input allows for a built in color picker.</p>
+        <input type="color">
+    </section>
+
+    <br>
+
+    <section>
+        <p>the type "time" input allow for a built in time selector.</p>
+        <input type="time">
+    </section>
+</body>
+</html>
